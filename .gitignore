@@ -1,5 +1,4 @@
 Secrets/*
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -62,4 +61,35 @@ instance/
 # Scrapy stuff
 .scrapy
 
-# Sph
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipynb_checkpoints/
+
+# VSCode (optional - if you use VSCode along with PyCharm)
+.vscode/
+*.code-workspace
+
+# ------------------------------------------------------------------------------
+# PyCharm
+# ------------------------------------------------------------------------------
+.idea/
+*.iml
+
+# ------------------------------------------------------------------------------
+# Virtual Environments
+# ------------------------------------------------------------------------------
+env/
+venv/
+ENV/
+venv.bak/
+.venv
+venv_*
