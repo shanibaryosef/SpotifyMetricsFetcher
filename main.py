@@ -1,7 +1,9 @@
 import argparse
 import os
+import time
 
 from ChartsAPI.charts import download_spotify_csv_with_login
+from TrackEnricher.enricher import enrichData
 from utils.consts import DOWNLOAD_DIR
 from utils.utils import getCredentials, generate_weekly_dates
 
@@ -33,6 +35,15 @@ def runChartsFetcher():
             date=week
         )
 
+def runEnricher():
+    # Get Creds
+    creds_dict = getCredentials()
+
+    for entry in os.listdir(DOWNLOAD_DIR):
+        full_path = os.path.join(DOWNLOAD_DIR, entry)
+        enrichData(creds_dict['client_id'], creds_dict['client_secret'], full_path)
+
+    print('Finished Enriching all charts')
 
 def main():
     # Create the parser
@@ -41,7 +52,7 @@ def main():
     # Add an argument that can be either "start" or "stop"
     parser.add_argument(
         "--action",
-        choices=["download_charts"],
+        choices=["download", "enrich"],
         help="The action to perform"
     )
 
@@ -49,8 +60,11 @@ def main():
     args = parser.parse_args()
 
     # Run the corresponding function
-    if args.action == "download_charts":
+    if args.action == "download":
         runChartsFetcher()
+
+    elif args.action == "enrich":
+        runEnricher()
 
 
 if __name__ == "__main__":

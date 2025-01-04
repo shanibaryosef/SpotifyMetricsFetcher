@@ -1,11 +1,11 @@
 import base64
 import csv
+import time
+
 import requests
 
-def getAccessToken():
-    client_id = '7a6df11239224a849bdb7ab86f38d2e8'
-    client_secret = 'f439afdf5779434eb4585aa64d3c84ad'
 
+def getAccessToken(client_id, client_secret):
     auth_string = f"{client_id}:{client_secret}"
     base64_auth_string = base64.b64encode(auth_string.encode()).decode()
 
@@ -29,14 +29,46 @@ def getAccessToken():
 
     return access_token
 
-def getTrackInfo(access_token, track_ids):
+def getTrackInfo(access_token, track_id):
     headers = {
         "Authorization": f"Bearer {access_token}"
     }
-    audio_features_url = f"https://api.spotify.com/v1/audio-features/{','.join(track_ids)}"
-    print(audio_features_url)
-    response = requests.get(audio_features_url, headers=headers)
-    audio_features = response.json()
+    track_url = f"https://api.spotify.com/v1/tracks/{track_id}"
+    response = requests.get(track_url, headers=headers)
+    if response.status_code == 429:
+        print("Throttle reached!")
+        retry_after = response.headers.get('Retry-After')
+        if retry_after:
+            # Convert it to an integer (it should be a string of seconds)
+            wait_time = int(retry_after)
+            print(f"Retry after {wait_time} seconds.")
+            # Optionally sleep for that amount of time before retrying
+            time.sleep(wait_time)
+            # Then retry your request here if desired
+            return getArtistInfo(access_token, track_id)
+    else:
+        audio_features = response.json()
+    return audio_features
+
+def getArtistInfo(access_token, artist_id):
+    headers = {
+        "Authorization": f"Bearer {access_token}"
+    }
+    artists_url = f"https://api.spotify.com/v1/artists/{artist_id}"
+    response = requests.get(artists_url, headers=headers)
+    if response.status_code == 429:
+        print("Throttle reached!")
+        retry_after = response.headers.get('Retry-After')
+        if retry_after:
+            # Convert it to an integer (it should be a string of seconds)
+            wait_time = int(retry_after)
+            print(f"Retry after {wait_time} seconds.")
+            # Optionally sleep for that amount of time before retrying
+            time.sleep(wait_time)
+            # Then retry your request here if desired
+            return getArtistInfo(access_token, artist_id)
+    else:
+        audio_features = response.json()
     return audio_features
 
 
@@ -63,14 +95,28 @@ def csv_to_dict(file_path, row_limit=50):
 
     return rows
 
-def parseChartCSV(access_token, file_path):
-    chart_dict_list = csv_to_dict(file_path, row_limit=1)
-    track_ids = []
-    for chart_dict in chart_dict_list:
-        track_ids.append(getTrackId(chart_dict))
-    tracks_info = getTrackInfo(access_token, track_ids)
-    print(tracks_info)
+def dict_to_csv(data, csv_filename):
+    """
+    Write a list of dictionaries to a CSV file.
 
+    :param data: list of dicts, e.g. [{'Name': 'Alice', 'Age': 30}, ...]
+    :param csv_filename: output CSV filename/path
+    """
+    # Make sure there is at least one dictionary in the list
+    if not data:
+        print("No data to write.")
+        return
 
+    # Extract column names (keys) from the first dictionary
+    fieldnames = data[0].keys()
 
-parseChartCSV(getAccessToken(), r'E:\Projects\SpotifyMetricsFetcher\downloads\regional-il-weekly-2024-12-26.csv')
+    # Open the CSV file for writing
+    with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        # Write the header (column names)
+        writer.writeheader()
+
+        # Write each dictionary as a row in the CSV
+        for row in data:
+            writer.writerow(row)
