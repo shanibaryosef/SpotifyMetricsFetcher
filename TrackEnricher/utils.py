@@ -45,10 +45,10 @@ def getTrackInfo(access_token, track_id):
             # Optionally sleep for that amount of time before retrying
             time.sleep(wait_time)
             # Then retry your request here if desired
-            return getArtistInfo(access_token, track_id)
+            return getTrackInfo(access_token, track_id)
     else:
-        audio_features = response.json()
-    return audio_features
+        track_info = response.json()
+    return track_info
 
 def getArtistInfo(access_token, artist_id):
     headers = {
@@ -68,8 +68,8 @@ def getArtistInfo(access_token, artist_id):
             # Then retry your request here if desired
             return getArtistInfo(access_token, artist_id)
     else:
-        audio_features = response.json()
-    return audio_features
+        artist_info = response.json()
+    return artist_info
 
 
 
@@ -86,14 +86,14 @@ def csv_to_dict(file_path, row_limit=50):
     with open(file_path, mode='r', encoding='utf-8', newline='') as csvfile:
         # Use DictReader to get each row as a dictionary
         reader = csv.DictReader(csvfile)
-
-        # Read up to 100 rows
+        # Read up to row_limit rows
         for index, row in enumerate(reader):
             if index == row_limit:
                 break
             rows.append(row)
 
     return rows
+
 
 def dict_to_csv(data, csv_filename):
     """

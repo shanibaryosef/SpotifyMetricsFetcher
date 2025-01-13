@@ -39,8 +39,8 @@ def runEnricher():
     # Get Creds
     creds_dict = getCredentials()
 
-    for entry in os.listdir(DOWNLOAD_DIR):
-        full_path = os.path.join(DOWNLOAD_DIR, entry)
+    for entry in os.listdir(DOWNLOAD_DIR): # list of files in downloads dir
+        full_path = os.path.join(DOWNLOAD_DIR, entry) # ex. downloads/file1.csv
         enrichData(creds_dict['client_id'], creds_dict['client_secret'], full_path)
 
     print('Finished Enriching all charts')
