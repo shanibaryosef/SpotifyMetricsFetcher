@@ -2,7 +2,7 @@ import requests
 
 # Replace with your access token
 headers = {
-    "Authorization": f"Bearer BQAL7QsDwUAmF0W-z2fjk57vdUNSGj_9dZatNnsNIYgproboP_CiEGIHnwar0ltTNS6jNarM1ysQeFm8WgsoSfty6u-ac702Qv970XlQr2g5aOCsk5U"
+    "Authorization": f"Bearer BQB5-Ybm-s8AV2GgiB0S33eJJUdQBnvQvLVrZQYPhw47-vsgyROX43xGKsNeDBXvv0jA25zpEiQh_ZYIDqPvflMdRz7s_PFEUFjC4vZCLx8tljl79AM"
 }
 
 
@@ -12,7 +12,7 @@ def is_song_sad(track_id):
     audio_features_url = f"https://api.spotify.com/v1/audio-features/{track_id}"
     response = requests.get(audio_features_url, headers=headers)
     audio_features = response.json()
-
+    print(audio_features)
     # Extract relevant features
     valence = audio_features.get("valence", 0)
     energy = audio_features.get("energy", 0)
