@@ -1,0 +1,51 @@
+﻿rank,uri,artist_names,track_name,source,peak_rank,previous_rank,weeks_on_chart,streams,artist_name,artist_genres,album_name,artist_type
+1,spotify:track:4LRPiXqCikLlN15c3yImP7,Harry Styles,As It Was,Columbia,1,1,3,203681,Harry Styles,['pop'],As It Was,International
+2,spotify:track:3fCS3m3uWUgAFm3purs15C,Anna Zak,לך לישון,ITModels under exclusive license to D-Music,1,2,15,162411,Anna Zak,['israeli pop'],לך לישון,Israeli
+3,spotify:track:67PF7VLcYEKKF82ziNf9Ur,"Shahar Saul, Agam Buhbut, NOROZ",דובשנייה,Mobile1 Music,2,3,13,142453,שחר סאול,['israeli hip hop'],דובשנייה,Israeli
+4,spotify:track:4DgyTAwiSJsT5u5EljsImB,"Noa Kirel, Itay Galo",פעמון,Noa Kirel / Itay Galo under exclusive license to NMC United Entertainment Ltd.,4,4,5,139167,Noa Kirel,['israeli pop'],פעמון,Israeli
+5,spotify:track:2SxcL0eba2ILQpJPuBBHsG,Eden Hason,מה פספסתי,Mobile1 Music,4,5,19,128793,Eden Hason,['israeli mediterranean'],מה פספסתי,Israeli
+6,spotify:track:02MWAaffLxlfxAUY7c5dvx,Glass Animals,Heat Waves,Polydor Records,3,6,64,126788,Glass Animals,"['gauze pop', 'indietronica', 'modern rock', 'pov: indie', 'shiver pop']",Dreamland (+ Bonus Levels),International
+7,spotify:track:05KQMm1vL6MnJkgobUtwft,Omer Adam,לבד על המיטה,P.A.I LTD,2,7,11,121278,Omer Adam,"['israeli mediterranean', 'israeli pop', 'mizrahi']",לבד על המיטה,Israeli
+8,spotify:track:1D8HR389yohrWVZ1yHI2bc,Tuna,היי בייב,NaNa Disc,4,9,18,113078,Tuna,"['israeli hip hop', 'israeli pop']",מזרח פרוע,Israeli
+9,spotify:track:6so2IwKQyYFkNv1G0FrZ95,Nunu,ליבינג דה דרים,Neomi Aharoni Gal under exclusive license to D-Music,9,12,8,109930,Nunu,['israeli hip hop'],ליבינג דה דרים,Israeli
+10,spotify:track:4OuoS8NAur7tj6rMDpTVjJ,Maya Dadon,כמו שאני,Icon Artist Management under exclusive license to D-Music,10,10,4,108448,Maya Dadon,['israeli pop'],כמו שאני,Israeli
+11,spotify:track:1HhNoOuqm1a5MXYEgAFl8o,"Imagine Dragons, JID, Arcane, League of Legends",Enemy (with JID) - from the series Arcane League of Legends,Kid Ina Korner / Interscope,1,8,25,108242,Imagine Dragons,"['modern rock', 'pop', 'rock']",Mercury - Act 1,International
+12,spotify:track:2B4GHvToeLTOBB4QLzW3Ni,Farruko,Pepas,Sony Music Latin,7,13,35,105714,Farruko,"['reggaeton', 'trap latino', 'urbano latino']",La 167,International
+13,spotify:track:70Vsir4Wan3TrEzGCIZy0l,Eden Hason,ככה כל יום,Mobile1 Music,9,11,10,96866,Eden Hason,['israeli mediterranean'],ככה כל יום,Israeli
+14,spotify:track:79h6P8bV0ENtq6Vmhkpewr,Odeya,אם הייתי צריכה,A.M Music Productions LTD,7,15,21,93403,אודיה,['israeli pop'],אם הייתי צריכה,Israeli
+15,spotify:track:26ffnwQVV4votOweWSwpeN,Narkis,הולכת איתך,session42,2,14,43,90269,Narkis,['israeli pop'],הולכת איתך,Israeli
+16,spotify:track:4aqlgwaZNzb94QuHP6y58X,"Omer Adam, Static & Ben El",לכאורה,P.A.I LTD / Gaga Booking,12,18,7,90200,Omer Adam,"['israeli mediterranean', 'israeli pop', 'mizrahi']",לכאורה,Israeli
+17,spotify:track:5PjdY0CKGZdEuoNab3yDmX,"The Kid LAROI, Justin Bieber",STAY (with Justin Bieber),Columbia,2,16,41,89271,The Kid LAROI,['australian hip hop'],F*CK LOVE 3: OVER YOU,International
+18,spotify:track:2liUMhNvpAxRNVAGnz8jNJ,"Static & Ben El, Netta",אפס מאמץ,Mobile1 Music,1,23,42,87647,Static & Ben El,"['israeli pop', 'jewish pop']",שבעה ירחים,Israeli
+19,spotify:track:4fouWK6XVHhzl78KzQ1UjL,GAYLE,abcdefu,Atlantic/Arthouse Records,7,17,22,86971,GAYLE,"['alt z', 'modern alternative pop']",abcdefu,International
+20,spotify:track:58HvfVOeJY7lUuCqF0m3ly,Elley Duhé,MIDDLE OF THE NIGHT,Not Fit For Society/RCA Records,19,19,12,86755,Elley Duhé,['alt z'],MIDDLE OF THE NIGHT,International
+21,spotify:track:7rNA5Jwu23g7PaXcMwfLdq,Eden Hason,מדליקה לי הכל,Mobile1 Music,7,21,25,85999,Eden Hason,['israeli mediterranean'],אלבום 2,Israeli
+22,spotify:track:3uUuGVFu1V7jTQL60S1r8z,"Lost Frequencies, Calum Scott",Where Are You Now,Epic Amsterdam,18,22,28,85749,Lost Frequencies,"['belgian edm', 'edm', 'pop dance', 'tropical house']",Where Are You Now,International
+23,spotify:track:1ZEsqzNBQqyC7VLRTUDopj,"Mor, Avi Aburomi",חצי שלי,2022 Avi Aburomi & Sarit Productions BY PIL LTD,23,30,4,83135,Mor,['israeli pop'],חצי שלי,Israeli
+24,spotify:track:4N8FwcfRTju02qsgn9Mcl8,Eden Hason,בואי נישן על זה,Mobile1 Music,24,-1,1,82750,Eden Hason,['israeli mediterranean'],בואי נישן על זה,Israeli
+25,spotify:track:5Z9KJZvQzH6PFmb8SNkxuk,"Lil Nas X, Jack Harlow",INDUSTRY BABY (feat. Jack Harlow),Columbia,1,24,39,82446,Lil Nas X,['lgbtq+ hip hop'],MONTERO,International
+26,spotify:track:6qi83Ret9Yok9PfZWzmdZk,"בנאל בן ציון, שירז אברהם",חסר/ה לי ברמות,Mobile1 Music,13,20,9,80350,בנאל בן ציון,['israeli pop'],חסר/ה לי ברמות,Israeli
+27,spotify:track:66iaD8MCoVnBtqUhuzdglT,Ran Danker,בית משוגעים,NMC United Entertainment Ltd.,1,33,59,78358,Ran Danker,"['festigal', 'israeli pop']",בית משוגעים,Israeli
+28,spotify:track:7xluxbbxxQ8ovB6xrJUlim,"Elai Botner, Avraham Aviv Alush",הכי קרוב אלייך,NMC United Entertainment Ltd.,20,25,89,77213,Elai Botner,['israeli pop'],הכי קרוב אלייך,Israeli
+29,spotify:track:2DB4DdfCFMw1iaR6JaR03a,"Camila Cabello, Ed Sheeran",Bam Bam (feat. Ed Sheeran),Epic,26,26,7,75577,Camila Cabello,"['dance pop', 'pop']",Familia,International
+30,spotify:track:1rDQ4oMwGJI7B4tovsBOxc,Jack Harlow,First Class,Generation Now/Atlantic,30,47,2,74252,Jack Harlow,"['deep underground hip hop', 'hip hop', 'kentucky hip hop', 'pop rap', 'rap']",First Class,International
+31,spotify:track:3ZT2YK7nfPXq3xCrlWkgt7,Maya Dadon,חוץ ממך,Icon Artist Management under exclusive license to D-Music,2,27,13,72925,Maya Dadon,['israeli pop'],חוץ ממך,Israeli
+32,spotify:track:3RBpmZJ0YG9abVBXI2U1UO,Eden Hason,את חסרה לי,Mobile1 Music,1,29,95,72817,Eden Hason,['israeli mediterranean'],אלבום 2,Israeli
+33,spotify:track:3rmo8F54jFF8OgYsqTxm5d,Ed Sheeran,Bad Habits,Atlantic Records UK,6,28,43,72566,Ed Sheeran,"['pop', 'singer-songwriter pop', 'uk pop']",=,International
+34,spotify:track:18asYwWugKjjsihZ0YvRxO,"Tiësto, Ava Max",The Motto,Atlantic Records,25,34,18,71437,Tiësto,"['big room', 'brostep', 'dutch edm', 'edm', 'house', 'pop dance', 'progressive electro house', 'slap house', 'trance']",The Motto,International
+35,spotify:track:50nfwKoDiSYg8zOCREWAm5,Ed Sheeran,Shivers,Atlantic Records UK,14,31,32,69922,Ed Sheeran,"['pop', 'singer-songwriter pop', 'uk pop']",=,International
+36,spotify:track:2Xr1dTzJee307rmrkt8c0g,CKay,love nwantiti (ah ah ah),Chocolate City Music,4,37,31,69426,CKay,"['afro r&b', 'afrobeats']",CKay The First,International
+37,spotify:track:3yyHRwblo5kk0fH9pfMP6M,"Marina Maximilian, Guy Mentesh",ביחד,Marina Maximilian under exclusive license to D-Music,14,35,84,69112,Marina Maximilian,['israeli pop'],ביחד,Israeli
+38,spotify:track:68kVzJf0STAv91tuLutuDr,Eden Hason,שקיעות אדומות,Mobile1 Music,2,40,78,67008,Eden Hason,['israeli mediterranean'],אלבום 2,Israeli
+39,spotify:track:3AVXwaOGCEL8cmBecfcsFJ,Charlie Puth,Light Switch,Atlantic Records,33,38,13,67001,Charlie Puth,"['pop', 'viral pop']",Light Switch (Instrumental),International
+40,spotify:track:6sADtPKtORAMZP3GQhOsHv,Ishay Ribo,סיבת הסיבות,2021 Ishay Ribo BY PIL LTD,8,45,60,66635,Ishay Ribo,['israeli pop'],סיבת הסיבות,Israeli
+41,spotify:track:1SOClUWhOi8vHZYMz3GluK,Jaymes Young,Infinity,Atlantic Records,17,36,20,66094,Jaymes Young,['indie poptimism'],Feel Something,International
+42,spotify:track:6JIC3hbC28JZKZ8AlAqX8h,"Elton John, Dua Lipa, PNAU",Cold Heart - PNAU Remix,EMI,13,43,33,65866,Elton John,"['glam rock', 'mellow gold', 'piano rock', 'rock']",The Lockdown Sessions,International
+43,spotify:track:5e4PVtYVBu9BpJVhmQhIvS,Hanan Ben Ari,שמש,Hanan Ben Ari / Mor Dahan under exclusive license to D-Music,26,49,137,65297,Hanan Ben Ari,['israeli pop'],שמש,Israeli
+44,spotify:track:1lHlKCdVZ4CGbbkTuG6LfT,Jasmin Moallem,יחפים,Helicon Music,15,41,20,65067,Jasmin Moallem,['israeli pop'],יחפים,Israeli
+45,spotify:track:71h6sV5KytTmPARarI28wI,Raviv Kaner,רסיסים,Helicon Aroma Music Ltd.,1,46,91,63882,Raviv Kaner,['israeli pop'],רסיסים,Israeli
+46,spotify:track:4Ow0gCGxYfOcyiCuZOt9mp,Avraham Tal,שבוע טוב,Digistage,17,44,97,62917,Avraham Tal,['israeli pop'],שבוע טוב,Israeli
+47,spotify:track:4F5i9rkN4DBMysvhzzEHoh,"Eden Ben Zaken, Eden Hason",פילטרים יפים,Sarit Productions LTD / A.M Music Productions LTD under exclusive license to D-Music,15,32,20,62695,Eden Ben Zaken,"['israeli mediterranean', 'israeli pop']",פילטרים יפים,Israeli
+48,spotify:track:5ezFz6Jwn7l40kIGAP4zmL,Eyal Golan,בזמן האחרון,Liam Productions under exclusive license to D-Music,25,39,3,60354,Eyal Golan,"['israeli mediterranean', 'israeli pop', 'mizrahi', 'persian pop']",קצת שמח קצת עצוב,Israeli
+49,spotify:track:3Ng0zyr8FgKhr93QySZrwn,"Omer Adam, Gal Adam",אחים בדם,P.A.I LTD,49,-1,1,59447,Omer Adam,"['israeli mediterranean', 'israeli pop', 'mizrahi']",אחים בדם,Israeli
+50,spotify:track:6jMCb4UpIBjmiKf6EwVK8u,Omer Adam,חצי דפוק,P.A.I LTD,3,51,38,59122,Omer Adam,"['israeli mediterranean', 'israeli pop', 'mizrahi']",3,Israeli
