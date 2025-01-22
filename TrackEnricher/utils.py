@@ -1,5 +1,6 @@
 import base64
 import csv
+import re
 import time
 
 import requests
@@ -120,3 +121,11 @@ def dict_to_csv(data, csv_filename):
         # Write each dictionary as a row in the CSV
         for row in data:
             writer.writerow(row)
+
+
+def isHebrew(text):
+    return bool(re.search(r'[\u0590-\u05FF]', text))
+
+
+def isIsraeli(trackName, albumName, artistName):
+    return isHebrew(trackName) or isHebrew(albumName) or isHebrew(artistName)
