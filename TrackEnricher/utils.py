@@ -2,6 +2,7 @@ import base64
 import csv
 import re
 import time
+import ast
 
 import requests
 
@@ -127,5 +128,24 @@ def isHebrew(text):
     return bool(re.search(r'[\u0590-\u05FF]', text))
 
 
-def isIsraeli(trackName, albumName, artistName):
-    return isHebrew(trackName) or isHebrew(albumName) or isHebrew(artistName)
+def isIsraeli(trackName, albumName, artistName, artistGenres):
+    return isHebrew(trackName) or isHebrew(albumName) or isHebrew(artistName) or containsIsraeliOrJewish(artistGenres)
+
+
+def containsIsraeliOrJewish(string):
+    try:
+        # Convert the string to a Python list
+        words_list = ast.literal_eval(string)
+
+        # Ensure it's a list (in case the string was not formatted correctly)
+        if not isinstance(words_list, list):
+            return False
+
+        # Define keywords to check
+        keywords = {"israeli", "jewish"}
+
+        # Check if any word contains 'israeli' or 'jewish'
+        return any(any(keyword in word.lower() for keyword in keywords) for word in words_list)
+
+    except (SyntaxError, ValueError):
+        return False  # Return False if string format is invalid

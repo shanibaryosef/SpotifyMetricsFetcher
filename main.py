@@ -3,8 +3,8 @@ import os
 import time
 
 from ChartsAPI.charts import download_spotify_csv_with_login
-from TrackEnricher.enricher import enrichData, enrichDataWithArtistType
-from utils.consts import DOWNLOAD_DIR, DATA_DIR
+from TrackEnricher.enricher import enrichData, enrichDataWithArtistType, modifyDataWithArtistType
+from utils.consts import DOWNLOAD_DIR, DATA_DIR, ENRICHED_DATA_DIR
 from utils.utils import getCredentials, generate_weekly_dates
 
 
@@ -50,7 +50,14 @@ def runEnrichArtistType():
         full_path = os.path.join(DATA_DIR, entry) # ex. data/file1.csv
         enrichDataWithArtistType(full_path)
 
-    print('Finished Enriching all charts with tha artist type')
+    print('Finished Enriching all charts with the artist type')
+
+def runModifyArtistType():
+    for entry in os.listdir(ENRICHED_DATA_DIR): # list of files in data dir (each enriched chart with the artist type)
+        full_path = os.path.join(ENRICHED_DATA_DIR, entry) # ex. enrichedData/file1.csv
+        modifyDataWithArtistType(full_path)
+
+    print('Finished MODIFY all charts with the artist type')
 
 def main():
     # Create the parser
@@ -59,7 +66,7 @@ def main():
     # Add an argument that can be either "start" or "stop"
     parser.add_argument(
         "--action",
-        choices=["download", "enrich", "enrichArtistType"],
+        choices=["download", "enrich", "enrichArtistType", "modifyArtistType"],
         help="The action to perform"
     )
 
@@ -75,6 +82,9 @@ def main():
 
     elif args.action == "enrichArtistType":
         runEnrichArtistType()
+
+    elif args.action == "modifyArtistType":
+        runModifyArtistType()
 
 
 if __name__ == "__main__":

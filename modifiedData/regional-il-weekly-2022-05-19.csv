@@ -1,0 +1,51 @@
+﻿rank,uri,artist_names,track_name,source,peak_rank,previous_rank,weeks_on_chart,streams,artist_name,artist_genres,album_name,artist_type
+1,spotify:track:4LRPiXqCikLlN15c3yImP7,Harry Styles,As It Was,Columbia,1,1,7,184622,Harry Styles,['pop'],As It Was,International
+2,spotify:track:2FeBslNBMdR9V58uv6hd2t,Kendrick Lamar,N95,pgLang/Top Dawg Entertainment/Aftermath/Interscope Records,2,-1,1,176018,Kendrick Lamar,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",Mr. Morale & The Big Steppers,International
+3,spotify:track:67PF7VLcYEKKF82ziNf9Ur,"Shahar Saul, Agam Buhbut, NOROZ",דובשנייה,Mobile1 Music,2,3,17,145314,שחר סאול,['israeli hip hop'],דובשנייה,Israeli
+4,spotify:track:2SxcL0eba2ILQpJPuBBHsG,Eden Hason,מה פספסתי,Mobile1 Music,2,2,23,132039,Eden Hason,['israeli mediterranean'],מה פספסתי,Israeli
+5,spotify:track:6gI9b2VsoWhjhIuIeToDVs,"Kendrick Lamar, Blxst, Amanda Reifer",Die Hard,pgLang/Top Dawg Entertainment/Aftermath/Interscope Records,5,-1,1,129137,Kendrick Lamar,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",Mr. Morale & The Big Steppers,International
+6,spotify:track:3fCS3m3uWUgAFm3purs15C,Anna Zak,לך לישון,ITModels under exclusive license to D-Music,1,4,19,121701,Anna Zak,['israeli pop'],לך לישון,Israeli
+7,spotify:track:05zd5Nv0e02ZqrlC8A2cwx,Kendrick Lamar,United In Grief,pgLang/Top Dawg Entertainment/Aftermath/Interscope Records,7,-1,1,121439,Kendrick Lamar,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",Mr. Morale & The Big Steppers,International
+8,spotify:track:02MWAaffLxlfxAUY7c5dvx,Glass Animals,Heat Waves,Polydor Records,3,6,68,109469,Glass Animals,"['gauze pop', 'indietronica', 'modern rock', 'pov: indie', 'shiver pop']",Dreamland (+ Bonus Levels),International
+9,spotify:track:1PckUlxKqWQs3RlWXVBLw3,Lizzo,About Damn Time,Nice Life/Atlantic,9,23,3,107137,Lizzo,"['escape room', 'minnesota hip hop', 'pop', 'trap queen']",About Damn Time,International
+10,spotify:track:1D8HR389yohrWVZ1yHI2bc,Tuna,היי בייב,NaNa Disc,4,7,22,104779,Tuna,"['israeli hip hop', 'israeli pop']",מזרח פרוע,Israeli
+11,spotify:track:4DgyTAwiSJsT5u5EljsImB,"Noa Kirel, Itay Galo",פעמון,Noa Kirel / Itay Galo under exclusive license to NMC United Entertainment Ltd.,4,9,9,102549,Noa Kirel,['israeli pop'],פעמון,Israeli
+12,spotify:track:05KQMm1vL6MnJkgobUtwft,Omer Adam,לבד על המיטה,P.A.I LTD,2,11,15,102266,Omer Adam,"['israeli mediterranean', 'israeli pop', 'mizrahi']",לבד על המיטה,Israeli
+13,spotify:track:4xIhSUJantE6BMl3u8dtCJ,"Kendrick Lamar, Sampha",Father Time (feat. Sampha),pgLang/Top Dawg Entertainment/Aftermath/Interscope Records,13,-1,1,101812,Kendrick Lamar,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",Mr. Morale & The Big Steppers,International
+14,spotify:track:4N8FwcfRTju02qsgn9Mcl8,Eden Hason,בואי נישן על זה,Mobile1 Music,14,18,5,99976,Eden Hason,['israeli mediterranean'],בואי נישן על זה,Israeli
+15,spotify:track:6so2IwKQyYFkNv1G0FrZ95,Nunu,ליבינג דה דרים,Neomi Aharoni Gal under exclusive license to D-Music,9,16,12,97651,Nunu,['israeli hip hop'],ליבינג דה דרים,Israeli
+16,spotify:track:4OuoS8NAur7tj6rMDpTVjJ,Maya Dadon,כמו שאני,Icon Artist Management under exclusive license to D-Music,8,12,8,96649,Maya Dadon,['israeli pop'],כמו שאני,Israeli
+17,spotify:track:0RAvy97QRPzO2AfK5Dw6j3,"Kendrick Lamar, Taylour Paige",We Cry Together,pgLang/Top Dawg Entertainment/Aftermath/Interscope Records,17,-1,1,95008,Kendrick Lamar,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",Mr. Morale & The Big Steppers,International
+18,spotify:track:1ZEsqzNBQqyC7VLRTUDopj,"Mor, Avi Aburomi",חצי שלי,2022 Avi Aburomi & Sarit Productions BY PIL LTD,10,14,8,94279,Mor,['israeli pop'],חצי שלי,Israeli
+19,spotify:track:0wHFktze2PHC5jDt3B17DC,Jack Harlow,First Class,Generation Now/Atlantic,15,15,6,94134,Jack Harlow,"['deep underground hip hop', 'hip hop', 'kentucky hip hop', 'pop rap', 'rap']",Come Home The Kids Miss You,International
+20,spotify:track:5p56JT5F9a1z9pwXnqTg7d,Kendrick Lamar,Worldwide Steppers,pgLang/Top Dawg Entertainment/Aftermath/Interscope Records,20,-1,1,89002,Kendrick Lamar,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",Mr. Morale & The Big Steppers,International
+21,spotify:track:1XGmzt0PVuFgQYYnV2It7A,"Maroon 5, Wiz Khalifa",Payphone,Interscope Records*,5,5,13,87804,Maroon 5,['pop'],Overexposed Track By Track,International
+22,spotify:track:6kYGOFNUMxpab09L5Ukoke,Kendrick Lamar,Rich Spirit,pgLang/Top Dawg Entertainment/Aftermath/Interscope Records,22,-1,1,86133,Kendrick Lamar,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",Mr. Morale & The Big Steppers,International
+23,spotify:track:58HvfVOeJY7lUuCqF0m3ly,Elley Duhé,MIDDLE OF THE NIGHT,Not Fit For Society/RCA Records,14,22,16,85397,Elley Duhé,['alt z'],MIDDLE OF THE NIGHT,International
+24,spotify:track:2B4GHvToeLTOBB4QLzW3Ni,Farruko,Pepas,Sony Music Latin,7,20,39,83087,Farruko,"['reggaeton', 'trap latino', 'urbano latino']",La 167,International
+25,spotify:track:7pj6P5WnxkZsw3XRc8eMe1,Kendrick Lamar,Count Me Out,pgLang/Top Dawg Entertainment/Aftermath/Interscope Records,25,-1,1,81792,Kendrick Lamar,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",Mr. Morale & The Big Steppers,International
+26,spotify:track:7rNA5Jwu23g7PaXcMwfLdq,Eden Hason,מדליקה לי הכל,Mobile1 Music,7,30,29,81776,Eden Hason,['israeli mediterranean'],אלבום 2,Israeli
+27,spotify:track:3tYTyAt1q6BFBiGyYVOLhi,"Kendrick Lamar, Kodak Black",Silent Hill,pgLang/Top Dawg Entertainment/Aftermath/Interscope Records,27,-1,1,79932,Kendrick Lamar,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",Mr. Morale & The Big Steppers,International
+28,spotify:track:26ffnwQVV4votOweWSwpeN,Narkis,הולכת איתך,session42,2,29,47,79890,Narkis,['israeli pop'],הולכת איתך,Israeli
+29,spotify:track:4gbVRS8gloEluzf0GzDOFc,Maroon 5,Maps,Interscope Records*,8,8,8,79167,Maroon 5,['pop'],V,International
+30,spotify:track:79h6P8bV0ENtq6Vmhkpewr,Odeya,אם הייתי צריכה,A.M Music Productions LTD,7,26,25,77721,אודיה,['israeli pop'],אם הייתי צריכה,Israeli
+31,spotify:track:3uUuGVFu1V7jTQL60S1r8z,"Lost Frequencies, Calum Scott",Where Are You Now,Epic Amsterdam,18,25,32,77100,Lost Frequencies,"['belgian edm', 'edm', 'pop dance', 'tropical house']",Where Are You Now,International
+32,spotify:track:5PjdY0CKGZdEuoNab3yDmX,"The Kid LAROI, Justin Bieber",STAY (with Justin Bieber),Columbia,2,27,45,76404,The Kid LAROI,['australian hip hop'],F*CK LOVE 3: OVER YOU,International
+33,spotify:track:2liUMhNvpAxRNVAGnz8jNJ,"Static & Ben El, Netta",אפס מאמץ,Mobile1 Music,1,39,46,76095,Static & Ben El,"['israeli pop', 'jewish pop']",שבעה ירחים,Israeli
+34,spotify:track:401160izncPtca3CmX3dvM,"Kendrick Lamar, Summer Walker, Ghostface Killah",Purple Hearts,pgLang/Top Dawg Entertainment/Aftermath/Interscope Records,34,-1,1,75090,Kendrick Lamar,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",Mr. Morale & The Big Steppers,International
+35,spotify:track:6ECp64rv50XVz93WvxXMGF,Maroon 5,This Love,Interscope Records*,10,10,3,74615,Maroon 5,['pop'],Songs About Jane: 10th Anniversary Edition,International
+36,spotify:track:2DB4DdfCFMw1iaR6JaR03a,"Camila Cabello, Ed Sheeran",Bam Bam (feat. Ed Sheeran),Epic,25,35,11,73110,Camila Cabello,"['dance pop', 'pop']",Familia,International
+37,spotify:track:2iRLLOWJO1aIo376joSWrj,Eden Ben Zaken,WTF,Sarit Productions LTD / Helicon Aroma Music Ltd. under exclusive license to D-Music,37,-1,1,71833,Eden Ben Zaken,"['israeli mediterranean', 'israeli pop']",WTF,Israeli
+38,spotify:track:1HhNoOuqm1a5MXYEgAFl8o,"Imagine Dragons, JID, Arcane, League of Legends",Enemy (with JID) - from the series Arcane League of Legends,Kid Ina Korner / Interscope,1,24,29,71418,Imagine Dragons,"['modern rock', 'pop', 'rock']",Mercury - Act 1,International
+39,spotify:track:4cktbXiXOapiLBMprHFErI,Maroon 5,Memories,Interscope Records*,8,13,96,71288,Maroon 5,['pop'],JORDI (Deluxe),International
+40,spotify:track:4aqlgwaZNzb94QuHP6y58X,"Omer Adam, Static & Ben El",לכאורה,P.A.I LTD / Gaga Booking,12,33,11,70952,Omer Adam,"['israeli mediterranean', 'israeli pop', 'mizrahi']",לכאורה,Israeli
+41,spotify:track:0YeUVm23SAkUruwEx9LWnt,"Kendrick Lamar, Baby Keem, Sam Dew",Savior,pgLang/Top Dawg Entertainment/Aftermath/Interscope Records,41,-1,1,69555,Kendrick Lamar,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",Mr. Morale & The Big Steppers,International
+42,spotify:track:4fouWK6XVHhzl78KzQ1UjL,GAYLE,abcdefu,Atlantic/Arthouse Records,7,34,26,68874,GAYLE,"['alt z', 'modern alternative pop']",abcdefu,International
+43,spotify:track:3rmo8F54jFF8OgYsqTxm5d,Ed Sheeran,Bad Habits,Atlantic Records UK,6,40,47,68756,Ed Sheeran,"['pop', 'singer-songwriter pop', 'uk pop']",=,International
+44,spotify:track:5Z9KJZvQzH6PFmb8SNkxuk,"Lil Nas X, Jack Harlow",INDUSTRY BABY (feat. Jack Harlow),Columbia,1,36,43,68271,Lil Nas X,['lgbtq+ hip hop'],MONTERO,International
+45,spotify:track:70Vsir4Wan3TrEzGCIZy0l,Eden Hason,ככה כל יום,Mobile1 Music,9,28,14,67894,Eden Hason,['israeli mediterranean'],ככה כל יום,Israeli
+46,spotify:track:5zFglKYiknIxks8geR8rcL,"Maroon 5, Megan Thee Stallion",Beautiful Mistakes (feat. Megan Thee Stallion),Interscope Records*,19,19,48,67129,Maroon 5,['pop'],JORDI (Deluxe),International
+47,spotify:track:6qi83Ret9Yok9PfZWzmdZk,"בנאל בן ציון, שירז אברהם",חסר/ה לי ברמות,Mobile1 Music,13,38,13,66248,בנאל בן ציון,['israeli pop'],חסר/ה לי ברמות,Israeli
+48,spotify:track:2bL2gyO6kBdLkNSkxXNh6x,Maroon 5,Animals,Interscope Records*,21,21,6,66225,Maroon 5,['pop'],V,International
+49,spotify:track:3yyHRwblo5kk0fH9pfMP6M,"Marina Maximilian, Guy Mentesh",ביחד,Marina Maximilian under exclusive license to D-Music,14,47,88,65697,Marina Maximilian,['israeli pop'],ביחד,Israeli
+50,spotify:track:2Az5ykbQiZtFWtACCMvWlP,Kendrick Lamar,Rich - Interlude,pgLang/Top Dawg Entertainment/Aftermath/Interscope Records,50,-1,1,65223,Kendrick Lamar,"['conscious hip hop', 'hip hop', 'rap', 'west coast rap']",Mr. Morale & The Big Steppers,International

@@ -3,7 +3,7 @@ import os
 import time
 
 from TrackEnricher.utils import getTrackId, getTrackInfo, getArtistInfo, getAccessToken, csv_to_dict, dict_to_csv, isIsraeli
-from utils.consts import DATA_DIR, ENRICHED_DATA_DIR
+from utils.consts import DATA_DIR, ENRICHED_DATA_DIR, MODIFIED_DATA_DIR
 
 
 def enrichTrackRow(access_token, data_dict):
@@ -63,3 +63,35 @@ def enrichDataWithArtistType(file_path):
 
     full_path = os.path.join(ENRICHED_DATA_DIR, file_name) # ex. enrichedData/file1.csv
     dict_to_csv(final_dict_list, full_path)
+
+def modifyTrackRowWithArtistType(data_dict):
+        artistName = data_dict['artist_name']
+        trackName = data_dict['track_name']
+        albumName = data_dict['album_name']
+        artistGenres = data_dict['artist_genres']
+        artistTypeIsrael = isIsraeli(trackName, albumName, artistName, artistGenres)
+        if artistTypeIsrael == True:
+            artistType = 'Israeli'
+        else:
+            artistType = 'International'
+        enrich_dict = {'artist_type': artistType}
+        data_dict.update(enrich_dict)
+        return data_dict
+
+def modifyDataWithArtistType(file_path):
+        data_dict_list = csv_to_dict(file_path)  # list of dicts of rows in csv
+        file_name = os.path.basename(file_path)
+        print(f'Start MODIFY {file_name} with artist type')
+
+        if os.path.exists(
+                os.path.join(MODIFIED_DATA_DIR, file_name)):  # check if file already exists in modifiedData dir
+            print("File exists, skipping enrich")
+            return
+
+        final_dict_list = []
+        for data_dict in data_dict_list:  # each track in the chart
+            final_dict_list.append(modifyTrackRowWithArtistType(
+                data_dict))  # final_dict_list gets the updated modified dict with the information about the artist type
+
+        full_path = os.path.join(MODIFIED_DATA_DIR, file_name)  # ex. modifiedData/file1.csv
+        dict_to_csv(final_dict_list, full_path)
