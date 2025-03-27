@@ -5,7 +5,6 @@ import time
 from TrackEnricher.utils import getTrackId, getTrackInfo, getArtistInfo, getAccessToken, csv_to_dict, dict_to_csv, isIsraeli
 from utils.consts import DATA_DIR, ENRICHED_DATA_DIR, MODIFIED_DATA_DIR
 
-
 def enrichTrackRow(access_token, data_dict):
     track_id = getTrackId(data_dict)
     track_info = getTrackInfo(access_token, track_id) # api action
