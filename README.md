@@ -1,14 +1,14 @@
 # SpotifyMetricsFetcher
 Music Listening Habits in Israel: Impact of War on Streaming Behavior
 
-This project analyzes music listening behavior in Israel using Spotify's weekly Top Songs data, focusing on changes before and after the "Iron Swords" war (2023). The analysis leverages Spotify API, automation tools, audio feature extraction, and statistical methods to uncover trends in mood-related musical attributes.
+This project analyzes music listening behavior in Israel using Spotify's weekly Top Songs data, focusing on changes before and after the "Haravot Barzel" war (2023). The analysis leverages Spotify API, automation tools, audio feature extraction, and statistical methods to uncover trends in mood-related musical attributes.
 Project Overview
 
     Objective:
-    Investigate how external events (specifically, the "Iron Swords" war) influence music consumption patterns and mood-related song features in Israel.
+    Investigate how external events (specifically, the "Haravot Barzel" war) influence music consumption patterns and mood-related song features in Israel.
 
     Data Sources:
-        Spotify Top Songs weekly charts (Israel, 2022–2024)
+        Spotify Charts (via Selenium)
         Spotify API
         YouTube (via Pytubefix)
 
@@ -42,7 +42,7 @@ Tools & Technologies Used
     Scipy.stats:
     Statistical testing (T-tests, ANOVA, etc.).
 
-    Ruptures / pyHomogeneity:
+    pyHomogeneity:
     For Homogeneity and Change Point Detection (Standard Normal Homogeneity Test - SNHT).
 
 Project Highlights
